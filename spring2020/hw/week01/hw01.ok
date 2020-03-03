@@ -1,0 +1,15 @@
+{
+  "name": "Week 01 Graded Homework: Intro to Jupyter Notebooks",
+  "endpoint": "ncssm/macs358/sp20/week01gradedhw",
+  "src": [
+    "spring2020-hw01.ipynb"
+  ],
+  "tests": {
+      "tests/q*.py": "ok_test"
+  },
+  "protocols": [
+      "file_contents",
+      "grading",
+      "backup"
+  ]
+}
