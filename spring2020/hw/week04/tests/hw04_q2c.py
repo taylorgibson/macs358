@@ -24,7 +24,7 @@ test = {
                 {
                     "code": r"""
                     >>> chi_squared_score( ciphertext )
-                    13605.303323256037
+                    13615.47519299308
                     """,
                     "hidden": False,
                     "locked": False,

@@ -16,7 +16,7 @@ test = {
                 {
                     "code": r"""
                     >>> minimum_chi_score
-                    85.53668707056978
+                    30.65097328110476
                     """,
                     "hidden": False,
                     "locked": False,
