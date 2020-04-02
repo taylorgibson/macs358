@@ -16,7 +16,7 @@ test = {
                 {
                     "code": r"""
                     >>> text_clean( 'Meet me at 9 oclock', LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', special = my_replacements )
-                    'TESTINGONETWOTHREE'
+                    'MEETMEATNINEOCLOCK'
                     """,
                     "hidden": False,
                     "locked": False,
