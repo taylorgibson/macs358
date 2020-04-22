@@ -23,24 +23,24 @@ test = {
                 },
                 {
                     "code": r"""
-                    >>> index_of_coincidence('THISISASENTENCETHATISNTVERYLONGBUTIHOPETHATITSCORESLIKEAMONOALPHABETICCIPHER')
-                    0.06666666666666665
+                    >>> round(index_of_coincidence('THISISASENTENCETHATISNTVERYLONGBUTIHOPETHATITSCORESLIKEAMONOALPHABETICCIPHER'), 8)
+                    round( 0.06666666666666665, 8)
                     """,
                     "hidden": False,
                     "locked": False,
                 },
                                 {
                     "code": r"""
-                    >>> index_of_coincidence( ciphertext_1 )
-                    0.04374254260564173
+                    >>> round( index_of_coincidence( ciphertext_1 ), 8 )
+                    round( 0.04374254260564173, 8 )
                     """,
                     "hidden": False,
                     "locked": False,
                 },
                                 {
                     "code": r"""
-                    >>> index_of_coincidence( ciphertext_2 )
-                    0.041102256768198724
+                    >>> round( index_of_coincidence( ciphertext_2 ), 8 )
+                    round( 0.041102256768198724, 8 )
                     """,
                     "hidden": False,
                     "locked": False,
