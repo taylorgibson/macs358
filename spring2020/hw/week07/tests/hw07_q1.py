@@ -24,7 +24,7 @@ test = {
                 {
                     "code": r"""
                     >>> round(index_of_coincidence('THISISASENTENCETHATISNTVERYLONGBUTIHOPETHATITSCORESLIKEAMONOALPHABETICCIPHER'), 8)
-                    round( 0.06666666666666665, 8)
+                    0.06666667
                     """,
                     "hidden": False,
                     "locked": False,
@@ -32,7 +32,7 @@ test = {
                                 {
                     "code": r"""
                     >>> round( index_of_coincidence( ciphertext_1 ), 8 )
-                    round( 0.04374254260564173, 8 )
+                    0.04374254
                     """,
                     "hidden": False,
                     "locked": False,
@@ -40,7 +40,7 @@ test = {
                                 {
                     "code": r"""
                     >>> round( index_of_coincidence( ciphertext_2 ), 8 )
-                    round( 0.041102256768198724, 8 )
+                    0.04110226
                     """,
                     "hidden": False,
                     "locked": False,
